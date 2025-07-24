@@ -2,7 +2,8 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>僕の夢について</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>僕の夢と、小さなポケットの物語</title>
   <style>
     body {
       margin: 0;
@@ -19,9 +20,10 @@
     .container {
       text-align: center;
       max-width: 600px;
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(255, 255, 255, 0.15);
       padding: 40px;
       border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     }
 
     h1 {
@@ -49,6 +51,25 @@
     button:hover {
       background-color: #dddddd;
     }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -56,13 +77,14 @@
     <h1>僕の夢について</h1>
     <p>
       僕の夢は、年を重ねるごとに変わっていきました。
-  </p>
-   <p>    
-     これを見ている皆さんも、そっと胸に手を当てて
-     小さなころの自分の夢を振り返ってみてはどうですか？
-  </p>
-  <p>    
-     これから続く文章群は、僕の夢とそれにまつわる、僕の小さなポケットの中の物語です。
+    </p>
+    <p>    
+      これを見ている皆さんも、そっと胸に手を当てて<br>
+      小さなころの自分の夢を振り返ってみてはどうですか？
+    </p>
+    <p>    
+      これから続く文章群は、僕の夢とそれにまつわる、<br>
+      僕の小さなポケットの中の物語です。
     </p>
     <button onclick="location.href='https://gurannniki643.github.io/TkoUsien2/'">次章を読む</button>
   </div>
